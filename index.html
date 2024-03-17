@@ -4,68 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&display=swap" rel="stylesheet">
   <title>Doсtor</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
   <div class="wraper__container">
   <header class="header">
+    <div class="header__start">
     <h1>ХОБЛ: мифы и реальность </h1>
+  </div>
+    <img class="img__top" src="./images/cloud__top.svg" alt="">
+   
     <div class="header__navigation">
-      <div class="man's__advantage">
+      <div class="mans__advantage">
+        <div class="mans__block">
+        <img class="man" src="./images/man.jpg" alt="man">
+      </div>
         <div class="icon__men"></div>
         <div class="arrow">
-          <p>ХОБЛ болеют <b>преимущественно мужчины</b></p>
+          <h3 class="arrow_title">ХОБЛ болеют <br><b class="title_b">преимущественно <br> мужчины ? </b></h3>
         </div>
         <div class="navigation__tiile">
-          <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание...</p>
-        </div>
+          <p class="title__p">В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ,<span></span> диагностированной до 55 лет, было выявлено преобладание...</p></div>
+        <!-- </div> -->
         <button class="blue__head"></button>
       </div>
       <div class="danger">
+        <div class="bander_img">
+        <img class="danger-img" src="./images/Group 2.jpg" alt="Group">
+      </div>
         <div class="icon__arrow"></div>
         <div class="arrow">
-          <p>Опасно не наличие заболевания, а обострения?</p>
+          <h3><b>Опасно </b>не наличие заболевания, а обострения?</h3>
 
         </div>
         <div class="navigation__tiile">
-          <p>Большинство пациентов с ХОБЛ столкнется с обострениями: как минимум одно среднетяжелое или тяжелое обострение случится в течение...</p>
+          <p class="navigation__tiile-p">Большинство пациентов с ХОБЛ столкнется с обострениями:<br> как минимум одно среднетяжелое или тяжелое обострение случится в течение...</p>
         </div>
-        <button class="green__head"></button>
+        <button class="green__head">
+
+        </button>
       </div>
     </div>
+  </header>
+
   <div class="main">
-    <h2>Терапия ХОБЛ: что в фокусе?</h2>
-    <div class="color line">
-      <h2>Даже 1 среднетяжелое обострение — сигнал к увеличению объема терапии</h2>
-    </div>
-    <h4>Приоритетные направления фармакотерапевтической стратегии при ХОБЛ1:</h4>
+    <img class="img__bottum" src="./images/cloud__top.svg" alt="">
+<div class="copd__therapy">
+    <h2 class="copd">Терапия ХОБЛ: что в фокусе?</h2>
   </div>
+    <div class="color__line">
+      <h2 class="even">Даже 1 среднетяжелое обострение — сигнал к увеличению объема терапии</h2>
+    </div>
+    <h4 class="priorities">Приоритетные направления фармакотерапевтической стратегии при ХОБЛ1:</h4>
+  </div>
+
   <div class="layout-3-colom">
     <div class="toll">
       <div class="tool-icon">
-        <span class="icon-ingalation icon-ingalation_one "></span>
+        <span class="icon-ingalation icon-ingalation_one ">
+          <img class="ingalation_one" src="./images/Gr1.svg" alt="">
+        </span>
       </div>
-      <h4>Ингаляционный
-        <b>антихолинергик</b></h4>
-      <p>Ингибирует бронхоконстрикторные эффекты ацетилхолина, вступая с ним в конкурентный антагонизм за взаимодействие с эффекторными мускариновыми рецепторами, дополняет и потенцирует эффект β2-агонистов<sup>1</sup></p>
+      <h4 class="tool__text">Ингаляционный
+        <br><b>антихолинергик</b></h4>
+      <p class="
+      Inhibits">Ингибирует бронхоконстрикторные эффекты ацетилхолина, вступая с ним в конкурентный антагонизм за взаимодействие с эффекторными мускариновыми рецепторами, дополняет и потенцирует эффект β2-агонистов<sup>1</sup></p>
     </div>
-    <div class="tool>">
+    <div class="toll>">
       <div class="tool-icon">
-        <span class="icon-ingalation icon-ingalation_second "></span>
+        <span class="icon-ingalation icon-ingalation_second ">
+          <img src="./images/Gr2.svg" alt="">
+        </span>
       </div>
-      <h4>Ингаляционный <b>β2-агонист</b></h4>
-      <p>Вызывает бронходилатацию посредством релаксации гладкомышечных клеток бронхов независимо от характера констриктивных стимулов, т. е. выступают в качестве функциональных антагонистов бронхоконстрикции</p>
+      <h4>Ингаляционный <br><b>β2-агонист</b></h4>
+      <p class="Inhibits">Вызывает бронходилатацию посредством релаксации гладкомышечных клеток бронхов независимо от характера констриктивных стимулов, т. е. выступают в качестве функциональных антагонистов бронхоконстрикции</p>
     </div>
-    <div class="tool">
+    <div class="toll">
       <div class="tool-icon">
-        <span class="icon-ingalation icon-ingalation_third "></span>
-        <h3>Ингаляционный
-          <b>глюкокортикостероид</b> (ИГКС)</h3>
-          <p>Снижает частоту обострений, особенно в сочетании с ДДБА, подавляют хроническое воспаление при астме и снижают гиперреактивность дыхательных путей</p>
+        <span class="icon-ingalation icon-ingalation_third ">
+          <img src="./images/Gr3.svg" alt="">
+        </span>
+      </div>
+        <h3>Ингаляционный<br>
+          <b>глюкокортикостероид</b> <br>(ИГКС)</h3>
+          <p class="Inhibits">Снижает частоту обострений, особенно в сочетании с ДДБА, подавляют хроническое воспаление при астме и снижают гиперреактивность дыхательных путей</p>
       </div>
     </div>
-  </div>
+
   <div class="layout-2-colom">
     <div class="left">
       <p>Пациентам с ХОБЛ рекомендуется комбинирование бронходилататоров с разными механизмами действия;
@@ -76,8 +108,7 @@
     Последние исследования показали, что амбулаторное применение ИГКС/ДДБА у пациентов с ХОБЛ снижает госпитальную летальность по сравнению с пациентами, принимавшими только ДДБА (8,1% vs 13,2%)<sup>1</sup>.</p>
 </div>
   </div>
-
-  </header>
+</div>
 </div>
 </body>
 </html>
