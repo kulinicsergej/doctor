@@ -42,6 +42,7 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
 .title__p{
   padding: 38px 0px 20px 6px; 
 
@@ -127,6 +128,9 @@ height: 48.26px;
 border-radius: 50%;
 border:none;
 }
+.blue__head:hover{
+  cursor: pointer;
+}
 .green__head{
   position: absolute;
   top: -13%;
@@ -137,7 +141,9 @@ height: 48.26px;
 border-radius: 50%;
 border:none;
 }
-
+.green__head:hover{
+  cursor: pointer;
+}
 .color__line{
   margin: 83px 20px 0px 12px;
 border-radius: 20px;
@@ -169,9 +175,7 @@ background: $color-mix;
 .priorities{
   padding: 8px;
 }
-.layout-3-colom{
-  display: flex;
-}
+
 
 .main{
   padding: 30px;
