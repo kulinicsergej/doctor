@@ -302,3 +302,70 @@ text-align: left;
   height: 396px;
   padding: 0px 0px 0px 0px;
 }
+
+
+.tabl2{
+  border-radius: 30px;
+  top:-22%;
+  left: 33px;
+  position: absolute;
+  width: 1290px;
+  height: 750px;
+  // border: 1px solid red;
+  background: #ffff;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+display: none;
+}
+.tabl__text-top2{
+
+
+font-family: Noto Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #01457A;
+
+
+}
+.tabl__text-bottom2{
+  font-family: Noto Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #01457A;
+
+}
+.flexrow{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+  width: 1209px;
+height: 468px;
+}
+.item1{
+background: #FDD96640 25%;
+  border: 1px solid red;
+  width: 367px;
+
+}
+.item2{
+background: #FDD96640 25%;
+
+  border: 1px solid red;
+  width: 367px;
+
+}
+.item3{
+background: #FDD96640 25%;
+
+  width: 367px;
+
+  border: 1px solid red;
+
+}
