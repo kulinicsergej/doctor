@@ -335,7 +335,6 @@ h4 {
 .flexrow {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   width: 1209px;
   height: 468px;
 }

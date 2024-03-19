@@ -1,9 +1,12 @@
-
 document.addEventListener('DOMContentLoaded', function() {
   var tabl = document.querySelector('.tabl');
   var tabl2 = document.querySelector('.tabl2');
   var button = document.querySelector('.blue__head');
   var button2 = document.querySelector('.green__head');
+
+  // Устанавливаем display в 'none' по умолчанию
+  tabl.style.display = 'none';
+  tabl2.style.display = 'none';
 
   function toggleModal(modal) {
     if (modal.style.display === 'none' || modal.style.display === '') {
@@ -30,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
 
 
 // alert('Буду рад если дадите шанс доделать и попасть к вам на работу)')
