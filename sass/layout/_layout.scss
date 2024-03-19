@@ -1,6 +1,7 @@
 
 
 .layout-3-colom{
+  position: relative;
   display: flex;
   justify-content: space-around;
 }
@@ -365,7 +366,8 @@ height: 468px;
 .item1{
   gap: 6px;
   // margin: 38px 0px 0px -27px;
-background: #FDD96640 25%;
+
+background: $color-card-active;
   // border: 1px solid red;
   width: 367px;
   display: flex;

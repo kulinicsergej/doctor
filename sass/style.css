@@ -56,6 +56,7 @@ h4 {
 }
 
 .layout-3-colom {
+  position: relative;
   display: flex;
   justify-content: space-around;
 }
@@ -495,6 +496,20 @@ header {
   width: 295px;
   height: 113px;
   background-image: url(../images/Group\ 3.svg);
+}
+
+.arrow__bottom1 {
+  position: absolute;
+  bottom: -6%;
+  left: 17.4%;
+  z-index: 10;
+}
+
+.arrow__bottom2 {
+  position: absolute;
+  bottom: -6%;
+  left: 50.5%;
+  z-index: 10;
 }
 
 .blue__head {
