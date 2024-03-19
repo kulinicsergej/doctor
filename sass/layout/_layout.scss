@@ -148,7 +148,8 @@ margin: 17px 47px 0px -6px;
 
 .layout-2-colom{
   display: flex;
-  padding-top: 40px;
+  padding: 42px 0px 0px 19px;
+  // padding-top: 40px;
   // border: 1px solid red;
   justify-content: space-around;
   align-items: center;
@@ -260,7 +261,7 @@ display: none;
 }
 
 .tabl__content{
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 30px 45px;
   justify-content: space-between;
   flex-direction: column;
   display: flex;
@@ -269,7 +270,16 @@ display: none;
 //  border: 1px solid red;
 
 }
-// //tabl__top .tabl__content{
+.modalka{
+  font-family: Noto Sans;
+font-size: 33px;
+font-weight: 700;
+line-height: 63px;
+text-align: center;
+
+}
+
+// /./tabl__top .tabl__content{
 // //   padding: 0px 0px 0px 0px;
 // //   border: 1px solid red;
 
@@ -316,43 +326,92 @@ text-align: left;
   z-index: 10;
   display: flex;
   justify-content: center;
-// display: none;
+display: block;
 }
 .tabl__text-top2{
-
-
+width:1209px;
+height: 66px;
+padding: 16px 0px 0px 1px;
 font-family: Noto Sans;
 font-size: 24px;
 font-weight: 700;
-line-height: 33px;
-letter-spacing: 0em;
+line-height: 25px;
+letter-spacing: 0.05em;
 text-align: left;
 color: #01457A;
 
 
 }
 .tabl__text-bottom2{
+  // padding: 0px 0px 0px 37px;
+  width: 1252px;
   font-family: Noto Sans;
 font-size: 24px;
 font-weight: 400;
 line-height: 33px;
-letter-spacing: 0em;
+letter-spacing: 0.01em;
 text-align: left;
 color: #01457A;
 
 }
 .flexrow{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid red;
   width: 1209px;
 height: 468px;
 }
 .item1{
+  gap: 6px;
+  // margin: 38px 0px 0px -27px;
 background: #FDD96640 25%;
-  border: 1px solid red;
+  // border: 1px solid red;
   width: 367px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 
+
+}
+.heart{
+  padding: 18px 12px 0px 0px;
+  //padding: 35px 34px 0px 0px; margin: 7px 0px 0px -38px;
+
+}
+.procent{
+
+
+  padding: 2px 8px 0px 0px;
+  // margin: 20px 0px 0px -41px;
+height: 35%;
+  font-family: Noto Sans;
+font-size: 97px;
+font-weight: 700;
+line-height: 125px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.item__bottum{
+  margin: -41px 0px 0px -8px;
+}
+.modalka__text{
+  font-family: Noto Sans;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31.41px;
+  text-align: center;
+  // margin: -5px 0px 0px -34px;
+}
+.modalka__text-p{
+  // margin: 0px 0px 0px -45px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24.52px;
+  text-align: center;
+  
 }
 .item2{
 background: #FDD96640 25%;

@@ -17,13 +17,14 @@ body {
 }
 
 h1 {
+  padding-top: 2px;
   font-family: Century Gothic;
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
   letter-spacing: 0em;
   text-align: left;
-  margin-left: 38px;
+  margin-left: 44px;
 }
 
 h3 {
@@ -166,7 +167,7 @@ h4 {
 
 .layout-2-colom {
   display: flex;
-  padding-top: 40px;
+  padding: 42px 0px 0px 19px;
   justify-content: space-around;
   align-items: center;
 }
@@ -252,11 +253,19 @@ h4 {
 }
 
 .tabl__content {
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 30px 45px;
   justify-content: space-between;
   flex-direction: column;
   display: flex;
   width: 1209px;
+}
+
+.modalka {
+  font-family: Noto Sans;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 63px;
+  text-align: center;
 }
 
 .tabl__text-top {
@@ -296,40 +305,84 @@ h4 {
   z-index: 10;
   display: flex;
   justify-content: center;
+  display: block;
 }
 
 .tabl__text-top2 {
+  width: 1209px;
+  height: 66px;
+  padding: 16px 0px 0px 1px;
   font-family: Noto Sans;
   font-size: 24px;
   font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0em;
+  line-height: 25px;
+  letter-spacing: 0.05em;
   text-align: left;
   color: #01457A;
 }
 
 .tabl__text-bottom2 {
+  width: 1252px;
   font-family: Noto Sans;
   font-size: 24px;
   font-weight: 400;
   line-height: 33px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #01457A;
 }
 
 .flexrow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid red;
   width: 1209px;
   height: 468px;
 }
 
 .item1 {
+  gap: 6px;
   background: rgba(253, 217, 102, 0.2509803922) 25%;
-  border: 1px solid red;
   width: 367px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  padding: 18px 12px 0px 0px;
+}
+
+.procent {
+  padding: 2px 8px 0px 0px;
+  height: 35%;
+  font-family: Noto Sans;
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 125px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.item__bottum {
+  margin: -41px 0px 0px -8px;
+}
+
+.modalka__text {
+  font-family: Noto Sans;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31.41px;
+  text-align: center;
+}
+
+.modalka__text-p {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24.52px;
+  text-align: center;
 }
 
 .item2 {
@@ -403,8 +456,8 @@ header {
   /* box-shadow: 0px 0px 25px 0px #8EA0AD59; */
   box-shadow: 0px 0px 25px 0px rgba(142, 160, 173, 0.3490196078);
   height: 194.5px;
-  padding-left: 28px;
-  gap: 13px;
+  padding-left: 33px;
+  gap: 15px;
   align-items: center;
   display: flex;
   border: 1px solid #01457A;
@@ -422,7 +475,7 @@ header {
   box-shadow: 0px 0px 25px 0px rgba(142, 160, 173, 0.3490196078);
   gap: 13px;
   height: 206px;
-  padding-left: 14px;
+  padding-left: 24px;
   align-items: center;
   display: flex;
   border: 1px solid #01457A;
@@ -448,7 +501,7 @@ header {
 .blue__head {
   position: absolute;
   top: 20.1%;
-  right: 29px;
+  right: 24px;
   background-image: url("../images/head.svg");
   width: 48.26px;
   height: 48.26px;
@@ -516,7 +569,7 @@ header {
 }
 
 .copd {
-  padding: 62px 0px 0px 9px;
+  padding: 62px 0px 0px 16px;
 }
 
 /* .icon-ingalation icon-ingalation_one {
